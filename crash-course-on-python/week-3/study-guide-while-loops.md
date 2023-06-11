@@ -4,7 +4,7 @@ This study guide provides a quick-reference summary of what you learned in this 
 
 In the while Loops segment, you learned about the logical structure and syntax of while loops. You also learned about the importance of initializing variables and how to resolve infinite while loops with the break keyword.  
 
-*while Loops*
+## While Loops
 
 A while loop executes the body of the loop while a specified condition remains True. They are commonly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
 
@@ -192,16 +192,3 @@ addition_table(30)
 # 17 + 2 = 19
 # 17 + 3 = 20
 # None
-```
-Output:
-
-```
-5 + 1 = 6
-5 + 2 = 7
-5 + 3 = 8
-5 + 4 = 9
-5 + 5 = 10
-17 + 1 = 18
-17 + 2 = 19
-17 + 3 = 20
-```
