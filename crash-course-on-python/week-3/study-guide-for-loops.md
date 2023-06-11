@@ -1,3 +1,4 @@
+# Study Guide: For Loops
 This study guide provides a summary of what you learned in this segment and serves as a guide for the upcoming practice quiz.  
 
 In the for Loops segment, you learned about the logical structure and syntax of for loops. You took a closer look at the range() function. You learned about nested for loops and complex nested for loops with if statements. You also learned how to fix common errors in for loops.
