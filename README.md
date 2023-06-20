@@ -10,7 +10,7 @@ This repository written for reference and self-documentation purpose
 ---
 ## Table of Contents
 
-1. Crash Course On Python
+1. Crash Course On Python ✅
 2. Using Python to Interact with the Operating System
 3. Introduction to Git and GitHub
 4. Troubleshooting and Debugging Techniques
