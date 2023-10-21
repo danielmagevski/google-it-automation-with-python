@@ -14,7 +14,7 @@ Python is widely used in the IT field, including IT support, system administrati
 - a cross-platform compatible language;
 - a beginner-friendly language.
 
-### Python is not: 
+## Python is not: 
 
 - a platform-specific / OS-specific scripting language;
 - a client-side scripting language;
@@ -30,7 +30,7 @@ You will be learning about both Python and Bash scripting in this program. The f
 | Hello, how are you?          |  Hello, how are you? |
 
 
-Key Terms
+## Key Terms
 
 - Platform-specific / OS specific scripting language - Platform-specific scripting languages, like PowerShell (for Windows) and Bash (for Linux), are used by system administrators on those platforms. 
 - Client-side scripting language - Client-side scripting languages, like JavaScript, are used mostly for web programming. The scripts are transferred from a web server to the end-user’s internet browser, then executed in the browser.

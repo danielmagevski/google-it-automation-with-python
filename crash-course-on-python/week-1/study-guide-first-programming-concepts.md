@@ -2,7 +2,7 @@
 
 This study guide provides a quick-reference summary of what you learned in this lesson and serves as a guide for the upcoming practice quiz.  
 
-Functions 
+## Functions 
 
 A function is a piece of code that performs a unit of work. In the examples you've seen so far, you have only encountered the print() function, which outputs a message to the screen. You will use this function frequently in this course to check the results of your code. The syntax of the print() function is modeled in the example below. 
 
@@ -11,7 +11,7 @@ A function is a piece of code that performs a unit of work. In the examples you'
 
 print("Hello world!")
 ```
-Keywords
+## Keywords
 
 A keyword is a reserved word in a programming language that performs a specific purpose. In your first Python example, you briefly encountered the keywords for and in.  Note that keywords will often appear in bold in this course. 
 
@@ -24,6 +24,8 @@ Loops: for, in, while, break, continue
 Functions: def, return  
 
 You don't need to learn this whole list now. We'll dive into each keyword as we encounter them. There are additional reserved keywords in Python. If you would like to read about them, please visit the linked “Python Keywords” article in the Resources section at the end of this study guide. 
+
+## Arithmetic operators
 
 Python can calculate numbers using common mathematical operators, along with some special operators, too:  
 

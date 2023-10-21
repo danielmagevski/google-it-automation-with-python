@@ -1,6 +1,6 @@
 # Study Guide: Week 1 Graded Assessment
 
-Knowledge
+## Knowledge
 
 - Benefits of the Python programming language
 - How Python compares to other programming languages
@@ -21,9 +21,9 @@ Terms
 - Automation
 - Function
 
-Coding skills
+### Coding skills
 
-Skill 1
+*Skill 1*
 
 - Use the print() function to output a string
 
@@ -41,7 +41,7 @@ print(32*45)
 value = 8*6
 print(value)
 ```
-Skill 2
+*Skill 2*
 
 - Use arithmetic operators, with a focus on exponents
 
@@ -63,7 +63,7 @@ x = 4
 y = 26
 print(y**x)
 ```
-Skill 3
+*Skill 3*
 
 - Use variables with assignment and arithmetic operators
 
@@ -77,7 +77,7 @@ weeks_in_a_decade = years * weeks_in_a_year
 print(weeks_in_a_decade)
 ```
 
-Reminder: Correct syntax is critical
+## Reminder: Correct syntax is critical
 
 Using precise syntax is critical when writing code in any programming language, including Python. Even a small typo can cause a syntax error and the automated Python-coded quiz grader will mark your code as incorrect. This reflects real life coding errors in the sense that a single error in spelling, case, punctuation, etc. can cause your code to fail. Coding problems caused by imprecise syntax will always be an issue whether you are learning a programming language or you are using programming skills on the job. So, it is critical to start the habit of being precise in your code now. 
 
