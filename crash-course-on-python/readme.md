@@ -1,5 +1,6 @@
 ## [Crash Course on Python](https://www.coursera.org/learn/python-crash-course?specialization=google-it-automation)
 
+![crash-course-on-python](https://github.com/danielmagevski/google-it-automation-with-python/assets/10622331/384f4354-9388-44cb-9d7d-2927ea736621)
 
 This course is designed to teach you the foundations in order to write simple programs in Python using the most common structures. No previous exposure to programming is needed. By the end of this course, you'll understand the benefits of programming in IT roles; be able to write simple programs using Python; figure out how the building blocks of programming fit together; and combine all of this knowledge to solve a complex programming problem. 
 
