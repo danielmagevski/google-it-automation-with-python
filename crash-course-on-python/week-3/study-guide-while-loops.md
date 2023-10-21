@@ -48,35 +48,33 @@ print("Done")
 # Click the "Run" button to check the result of this while loop.  
 ```
 
-*Common Errors in while Loops*
+### Common Errors in while Loops
 
 If you get an error message on a loop or it appears to hang, your debugging checklist should include the following checks:
 
-* Failure to initialize variables. Make sure all the variables used in the loop’s condition are initialized before the loop.
+- Failure to initialize variables. Make sure all the variables used in the loop’s condition are initialized before the loop.
 
-* Unintended infinite loops. Make sure that the body of the loop modifies the variables used in the condition, so that the loop will eventually end for all possible values of the variables. You can often prevent an infinite loop by using the break keyword or by adding end criteria to the condition part of the while loop.
+- Unintended infinite loops. Make sure that the body of the loop modifies the variables used in the condition, so that the loop will eventually end for all possible values of the variables. You can often prevent an infinite loop by using the break keyword or by adding end criteria to the condition part of the while loop.
 
- 
+### while Loop Terms
 
-*while Loop Terms*
+- while loop - Tells the computer to execute a set of instructions while a specified condition is True. In other words, while loops keep executing the same group of instructions until the condition becomes False.
 
-* while loop - Tells the computer to execute a set of instructions while a specified condition is True. In other words, while loops keep executing the same group of instructions until the condition becomes False.
+- infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
 
-* infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
-
-* break - A keyword that can be used to end a loop at a specific point
+- break - A keyword that can be used to end a loop at a specific point
 
 ### Coding skills
 
 *Skill Group 1*
 
-* Initialize a variable
+- Initialize a variable
 
-* Use a while loop that runs while a specific condition is true
+-  Use a while loop that runs while a specific condition is true
 
-* Ensure the while loop will not be an infinite loop
+-  Ensure the while loop will not be an infinite loop
 
-* Increment a value within a while loop
+- Increment a value within a while loop
 
 ```
 # This function counts the number of integer factors for a 
@@ -133,9 +131,9 @@ Output:
 
 *Skill Group 2*
 
-* Initialize variables to assign data types before they are used in a while loop 
+- Initialize variables to assign data types before they are used in a while loop 
 
-* Use the break keyword as an exit point for a while loop
+- Use the break keyword as an exit point for a while loop
 
 ```
 # This function outputs an addition table. It is written to end after
@@ -192,3 +190,4 @@ addition_table(30)
 # 17 + 2 = 19
 # 17 + 3 = 20
 # None
+```

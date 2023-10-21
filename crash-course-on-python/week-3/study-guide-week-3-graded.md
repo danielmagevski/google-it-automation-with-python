@@ -1,46 +1,48 @@
-Knowledge
+# Study Guide: Week 3
+
+## Knowledge
 
 Terms
 
-<b>variables</b> - Know how to properly initialize or increment a variable. You will also need to recognize a coding error due to the failure to properly initialize or increment a variable.
+- <b>variables</b> - Know how to properly initialize or increment a variable. You will also need to recognize a coding error due to the failure to properly initialize or increment a variable.
 
-<b>infinite loops</b>  - Know how to recognize infinite loops and use common solutions to prevent them. For example, check loop conditions, ranges, iterators, control statements, etc. to ensure that at least one of these controls are in place to prevent an infinite loop.
+- <b>infinite loops</b>  - Know how to recognize infinite loops and use common solutions to prevent them. For example, check loop conditions, ranges, iterators, control statements, etc. to ensure that at least one of these controls are in place to prevent an infinite loop.
 
-<b>iterators</b>  - Know the various options available for iterating a variable (e.g., using assignment operators, using the third range() function parameter). You will also need to analyze where the iteration should occur. A misplaced iterator could produce the wrong output or create an infinite loop.  
+- <b>iterators</b>  - Know the various options available for iterating a variable (e.g., using assignment operators, using the third range() function parameter). You will also need to analyze where the iteration should occur. A misplaced iterator could produce the wrong output or create an infinite loop.  
 
-<b>control statements</b>  - Know how and when to use the break and continue control statements to prevent infinite loops.  
+- <b>control statements</b>  - Know how and when to use the break and continue control statements to prevent infinite loops.  
 
 
 Common Functions
 
-<b>range() Function Parameters</b>  - Know the roles of the three possible range(x, y, z)</b>  function parameters:
+- <b>range() Function Parameters</b>  - Know the roles of the three possible range(x, y, z)</b>  function parameters:
 
-<b>x</b>  Start of Range (included)
+- - <b>x</b>  Start of Range (included)
 
-<b>y</b>  End of Range (excluded index) 
+- - <b>y</b>  End of Range (excluded index) 
 
-To include the end of range index, use the expression y+1
+- - - To include the end of range index, use the expression y+1
 
-The end of range must be included in the range() parameters.
+- - - The end of range must be included in the range() parameters.
 
-<b>z</b>  Incremental value
+- - <b>z</b>  Incremental value
 
-<b>Example 1</b> : range(4, 12+1, 2)
+- - <b>Example 1</b> : range(4, 12+1, 2)
 
-This example creates a range that starts at 4 and ends at 12 (without the +1, the range would end at 11). 
+- - - This example creates a range that starts at 4 and ends at 12 (without the +1, the range would end at 11). 
 
-The third parameter increments the range iteration by 2, as opposed to the default increment of 1. The  <b>range(4, 12+1, 2)</b>  expression would produce the values: 4, 6, 8, 10, 12 
+- - - The third parameter increments the range iteration by 2, as opposed to the default increment of 1. The  <b>range(4, 12+1, 2)</b>  expression would produce the values: 4, 6, 8, 10, 12 
 
-<b>Example 2:</b>  range(10, 2-1, -2)
+- - <b>Example 2:</b>  range(10, 2-1, -2)
 
-This example creates a range that starts at 10 and ends at 2-1, with a decremental value of -2. When counting down, to include the value of the end of the range index, use -1 (end of range minus 1). This range produces the sequence: 10, 8, 6, 4, 2 
+- - - This example creates a range that starts at 10 and ends at 2-1, with a decremental value of -2. When counting down, to include the value of the end of the range index, use -1 (end of range minus 1). This range produces the sequence: 10, 8, 6, 4, 2 
 
 
-<b>print() Function Default Behavior </b> - Know the default behavior of the print()</b>  function is to insert a new line character after the print statement runs.
+- <b>print() Function Default Behavior </b> - Know the default behavior of the print()</b>  function is to insert a new line character after the print statement runs.
 
-To override the insertion of the new line character and replace it with a space, add <b>end=" "</b>  as the last item in the <b>print()</b>  parameters. This makes it possible to add the next print output to the same line, separated by a space. You might use this technique when a print() function is part of a for or while loop. Example syntax:  <b>print(x+1, end=" ")</b> 
+- - To override the insertion of the new line character and replace it with a space, add <b>end=" "</b>  as the last item in the <b>print()</b>  parameters. This makes it possible to add the next print output to the same line, separated by a space. You might use this technique when a print() function is part of a for or while loop. Example syntax:  <b>print(x+1, end=" ")</b> 
 
-Coding Skills
+### Coding Skills
 
 Skill 1: Using for loops with the range() function
 
@@ -75,7 +77,6 @@ def count_by_10(end):
 # Call the function with 1 integer parameter.
 print(count_by_10(100))
 # Should print 0 10 20 30 40 50 60 70 80 90 100
-
 ```
 
 Use a set of nested for loops with the range() function to create a matrix of numbers. 
@@ -354,11 +355,11 @@ Common syntax errors:
 
 - Missing or incorrect key characters:
 
-Parenthetical types - ( curved ), [ square ], { curly }
+- - Parenthetical types - ( curved ), [ square ], { curly }
 
-Quote types - "straight-double" or 'straight-single', “curly-double” or ‘curly-single’
+- - Quote types - "straight-double" or 'straight-single', “curly-double” or ‘curly-single’
 
-Block introduction characters, like colons - :
+- - Block introduction characters, like colons - :
 
 - Data type mismatches
 
